@@ -14,8 +14,7 @@ Material:
     type: 3}
   m_ModifiedSerializedProperties: 16
   m_ValidKeywords:
-  - _ALPHATEST_ON
-  - _SPECULAR_SETUP
+  - _ALPHAMODULATE_ON
   - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -24,36 +23,35 @@ Material:
   m_CustomRenderQueue: 3000
   stringTagMap:
     RenderType: Transparent
-  disabledShaderPasses:
-  - DepthOnly
+  disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
     - _Texture:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 164a48c5a9d147d40abb0a3262fd93ef, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AlphaClip: 1
-    - _AlphaToMask: 0
-    - _Blend: 0
+    - _AlphaClip: 0
     - _CastShadows: 1
-    - _Dist: 175.9
-    - _DstBlend: 10
-    - _FadeDist: 14
-    - _FallOff: 13.81
-    - _SpeedPanner: 18.4
-    - _SrcBlend: 5
+    - _Cull: 0
+    - _Dist: 9.68
+    - _FadeDist: 2.66
+    - _SpeedPanner: 6.1
+    - _SrcBlend: 2
     - _Surface: 1
-    - _Waves: 18.38
-    - _WavesHeigth: 1.2
+    - _Waves: 0.19
+    - _WavesHeigth: 4.64
+    - _WorkflowMode: 1
     - _X_Y: 0
-    - _ZWrite: 0
+    - _ZTest: 2
+    - _ZWrite: 1
+    - _ZWriteControl: 1
     m_Colors:
-    - _Color: {r: 0.118389204, g: 0.32397747, b: 0.51572317, a: 0}
-    - _FoamColor: {r: 0, g: 0.12782592, b: 0.29559743, a: 1}
+    - _Color: {r: 0.28671718, g: 0.6855345, b: 0.32678086, a: 0}
+    - _FoamColor: {r: 0.24648933, g: 0.43069687, b: 0.64779866, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &6864924024956973291
 MonoBehaviour:

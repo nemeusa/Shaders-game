@@ -33,8 +33,8 @@ Material:
     m_Floats:
     - _QueueControl: 0
     m_Colors:
-    - _Color: {r: 0.5597484, g: 0.33774063, b: 0.06864832, a: 1}
-    - _FireSpeed: {r: -0.62, g: 0.1, b: 0, a: 0}
+    - _Color: {r: 1, g: 0.6676797, b: 0, a: 1}
+    - _FireSpeed: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &4868703774858897014
 MonoBehaviour:
