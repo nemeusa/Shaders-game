@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_WaterBase
+  m_Name: M_WaterBase 1
   m_Shader: {fileID: -6465566751694194690, guid: 47aa6291ce5136a43a58ae5e24f884f6,
     type: 3}
   m_Parent: {fileID: -876546973899608171, guid: 47aa6291ce5136a43a58ae5e24f884f6,
