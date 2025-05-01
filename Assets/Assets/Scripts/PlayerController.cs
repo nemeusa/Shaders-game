@@ -7,6 +7,8 @@ public class PlayerController : MonoBehaviour
     public float velocidad = 5f;
     public float rangoInteraccion = 3f;
     public LayerMask capaInteractuable;
+    public LayerMask capaInteractuableVitrina;
+    bool _isHand;
 
     private Rigidbody rb;
     private Camera cam;
@@ -58,7 +60,16 @@ public class PlayerController : MonoBehaviour
         {
             IInteractable interactuable = hit.collider.GetComponent<IInteractable>();
             if (interactuable != null)
+            {
                 interactuable.Interact();
+                _isHand = true;
+            }
+        }
+        if (Physics.Raycast(ray, out RaycastHit hit2, rangoInteraccion, capaInteractuableVitrina) && _isHand)
+        {
+            IInteractable interactuable = hit.collider.GetComponent<IInteractable>();
+            if (interactuable != null)
+                interactuable.Interact2();
         }
     }
 

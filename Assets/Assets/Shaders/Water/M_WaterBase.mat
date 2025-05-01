@@ -44,6 +44,7 @@ Material:
     - _DstBlend: 10
     - _FadeDist: 14
     - _FallOff: 13.81
+    - _QueueControl: 1
     - _SpeedPanner: 18.4
     - _SrcBlend: 5
     - _Surface: 1

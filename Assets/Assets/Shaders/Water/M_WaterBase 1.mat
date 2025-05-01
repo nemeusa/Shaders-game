@@ -39,6 +39,7 @@ Material:
     - _Cull: 0
     - _Dist: 9.68
     - _FadeDist: 2.66
+    - _QueueControl: 1
     - _SpeedPanner: 6.1
     - _SrcBlend: 2
     - _Surface: 1
