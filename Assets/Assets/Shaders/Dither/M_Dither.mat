@@ -27,8 +27,8 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
-    - _ColorRes: 15.65
-    - _DitherSpread: 0.08
+    - _ColorRes: 1.56
+    - _DitherSpread: 0.52
     m_Colors: []
   m_BuildTextureStacks: []
 --- !u!114 &1926656717074369769
